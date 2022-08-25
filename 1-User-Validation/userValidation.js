@@ -1,9 +1,13 @@
 export const validateUser = (str) => {
-    if()
-    console.log(str)
-}
-
-validateUser("username_123");
+    if(str.length >= 4 && str.length <= 26
+        && (/[a-zA-Z]/).test(str.slice(0,1)) // str.charAt(0)
+        && (/^\w+$/).test(str) // str.charAt(str.slice(-1))
+        && (/[a-zA-Z0-9]/).test(str.slice(-1)) // str.charAt(str.length - 1)
+    ) {
+        return true;
+    } else {
+        return false;
+}};
 
 /*
     ENG:
@@ -31,5 +35,5 @@ validateUser("username_123");
         3. Der Benutzername darf nur Buchstaben, Zahlen und den Unterstrich enthalten.
         4. Der Benutzername darf nicht mit einem Unterstrich enden.
 
-    Wenn der Benutzername gültig ist, soll die Programmmeldung true zurückgeben.
+    Wenn der Benutzername gültig ist, soll die Programmmeldung true zurückgeben. 
 */
