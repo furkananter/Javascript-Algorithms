@@ -1,8 +1,10 @@
 export const oddEven = (num) => {
-    let number = num
+    const number = num
     number.toString().split("").map(iNumb => parseInt(iNumb,10)).reduce((a,b) => a + b);
     return number % 2 === 0 ? "Even" : "Odd";
 };
+
+oddEven(234);
 
 // Yönerge:
 /*
