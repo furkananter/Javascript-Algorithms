@@ -6,23 +6,26 @@ export const firstFactorial = (num) => {
     return factorialNumber
 };
 
-// Öncelikle, factorialNumber adında bir let değişkeni oluşturuyoruz ve bunu 1 olarak tanımlıyoruz.
-// Neden 1 olarak tanımladık. Çünkü 0! = 1 olduğu için.
-// Daha sonra, for döngüsü oluşturuyoruz ve i'yi 2'den başlatıyoruz.
-// Neden 2'den başlatıyoruz? Çünkü 1! = 1 olduğu için. Yani, 1'den başlatmak mantıklı değil.
-// Fazladan adım eklemeden, 2'den başlatıyoruz.
-// Daha sonra, i'yi num'a kadar arttırıyoruz. Tabii bu testte tüm sayıları hesaplayabiliriz.
-// Fakat bizden istenen num'ın 1 ile 18 arasında olması. 
-// i++ ise for döngüsünün her adımında i'yi 1 arttır demek.
-// Daha sonra, factorialNumber değişkenini i'ye eşitliyoruz.
-// Bu eşitleme sıradan bir eşitleme değil. Çünkü, *= operatörü ile eşitliyoruz.
-// *= operatörü, bir değişkenin değerini kendisine atanan değer ile çarpar.
-// Örneğin, factorialNumber *= i; ifadesi, factorialNumber = factorialNumber * i; ifadesine eşittir.
-// Daha sonra, return ile factorialNumber değişkenini döndürüyoruz.
-// Döndürdüğümüz değer, num'un faktöriyelini veriyor.
-// Örneğin, num = 5 ise, 5! = 5 * 4 * 3 * 2 * 1 = 120
-// Alkışşşş, bu kadar. Kolay gelsin.
+/*
+Öncelikle, factorialNumber adında bir let değişkeni oluşturuyoruz ve bunu 1 olarak tanımlıyoruz.
+?|-> Neden 1 olarak tanımladık. Çünkü 0! = 1 olduğu için.
+  *|-> Daha sonra, for döngüsü oluşturuyoruz ve i'yi 2'den başlatıyoruz.
+    ?|-> Neden 2'den başlatıyoruz? Çünkü 1! = 1 olduğu için. Yani, 1'den başlatmak mantıklı değil.
+      *|-> Fazladan adım eklemeden, 2'den başlatıyoruz.
+        *|-> Daha sonra, i'yi num'a kadar arttırıyoruz. Tabii bu testte tüm sayıları hesaplayabiliriz.
+          *|-> Fakat bizden istenen num'ın 1 ile 18 arasında olması. 
+            *|-> i++ ise for döngüsünün her adımında i'yi 1 arttır demek.
+              *|-> Daha sonra, factorialNumber değişkenini i'ye eşitliyoruz.
+               * |-> Bu eşitleme sıradan bir eşitleme değil. Çünkü, *= operatörü ile eşitliyoruz.
+                  *|-> *= operatörü, bir değişkenin değerini kendisine atanan değer ile çarpar.
+                    *|-> Örneğin, factorialNumber *= i; ifadesi, factorialNumber = factorialNumber * i; ifadesine eşittir.
+                      *|-> Daha sonra, return ile factorialNumber değişkenini döndürüyoruz.
+                        *|-> Döndürdüğümüz değer, num'un faktöriyelini veriyor.
+                          ?|-> Örneğin, num = 5 ise, 5! = 5 * 4 * 3 * 2 * 1 = 120
 
+!Alkışşşş, bu kadar. Kolay gelsin. 🎉🎉🎉
+
+*/
 
 /*
     ENG:
