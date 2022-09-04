@@ -20,9 +20,8 @@
 
 //--------------------------5---------------------------------
 
-//import { letterChanges } from "./5-Letter-Changes/letterChanges.js";
-
-
+import { letterChanges } from "./5-Find-Intersection/findIntersection.js";
+console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 
 //--------------------------6---------------------------------
 
