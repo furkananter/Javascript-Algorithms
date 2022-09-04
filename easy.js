@@ -5,18 +5,18 @@
 
 //--------------------------2--------------------------------
 
-//import { longestWord } from "./2-Longest-Word/longestWord.js";
-//console.log(longestWord("fun&&!! time"));
+// import { longestWord } from "./2-Longest-Word/longestWord.js";
+// console.log(longestWord("fun&&!! time"));
 
 //--------------------------3---------------------------------
 
-//import { firstFactorial } from "./3-First-Factorial/firstFactorial.js";
-//console.log(firstFactorial(4));
+// import { firstFactorial } from "./3-First-Factorial/firstFactorial.js";
+// console.log(firstFactorial(4));
 
 //--------------------------4---------------------------------
 
-import { firstReverse } from "./4-First-Reverse/firstReverse.js";
-console.log(firstReverse("Hello World and Coders"));
+// import { firstReverse } from "./4-First-Reverse/firstReverse.js";
+// console.log(firstReverse("Hello World and Coders"));
 
 //--------------------------5---------------------------------
 
