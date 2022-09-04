@@ -125,4 +125,4 @@ Bitte halten Sie sich an das `Verhaltenskodex` dieses Projekts.
 
 ## Feedback
 
-Wenn Sie Rückmeldung haben, wenden Sie sich bitte per Mail an meine Profilseite.
+Wenn Sie Rückmeldung haben, wenden Sie sich bitte per Mail mit meine.
