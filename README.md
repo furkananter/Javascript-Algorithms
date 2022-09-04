@@ -1,6 +1,7 @@
 
 # Algortihms with Javascript
 
+📌
 1. Bu projenin temel amacı, işe girerken yapılan mülakatlar için bizlere sunulan algoritma soruları ve çözümlerini içermesidir.
 
 2. Çözümler Javascript programlama dili ile yapılmıştır.
