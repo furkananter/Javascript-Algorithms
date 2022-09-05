@@ -3,6 +3,20 @@ export const findIntersection = (strArr) => {
 
     return strArr
 };
+// ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]
+/*
+    Instructions:
+    1. Yeni bir array tipinde değişken tanımla
+    2. split(), replace()
+                  |-> replace kullanmamızın sebebi; virgüllerden sonra gelen boşlukları temizlemek.
+    3. forEach ile tüm array içerisindeki karakterlerin diğer array içerisinde olup olmadığını kontrol edeceğiz.
+    4. Eğer varsa yeni array içerisine push() ile ekleyeceğiz.
+
+    5. Eğer yeni array içerisinde hiç bir eleman yoksa false döndüreceğiz.
+    6. Eğer yeni array içerisinde eleman varsa bu elemanların değerlerini string olarak döndüreceğiz.
+
+
+*/
 
 /*
     ENG:
