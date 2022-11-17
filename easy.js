@@ -20,8 +20,8 @@
 
 //--------------------------5---------------------------------
 
-import { letterChanges } from "./5-Find-Intersection/findIntersection.js";
-console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
+// import { letterChanges } from "./5-Find-Intersection/findIntersection.js";
+// console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 
 //--------------------------6---------------------------------
 
@@ -42,7 +42,8 @@ console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 
 //--------------------------9---------------------------------
 
-//import { } from "./";
+import {fizzBuzz} from "./9-FizzBuzz/fizzBuzz.js";
+console.log(fizzBuzz(15));
 
 //--------------------------10--------------------------------
 
